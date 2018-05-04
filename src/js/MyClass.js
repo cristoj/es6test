@@ -16,7 +16,8 @@ export default class MyClass {
    * @method MyClass#sayHello
    * @returns {string} A friendly greeting.
    */
-  sayHello () {
-    return 'Hello, World!';
+  sayHello (string = 'a') {
+
+    return 1;
   }
 }

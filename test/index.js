@@ -1,5 +1,5 @@
-import MyClass from '../src/index';
-import assert from 'assert';
+import MyClass from '../src/js/MyClass';
+import assert  from 'assert';
 
 describe('MyClass', () => {
   let myClass;
@@ -16,7 +16,7 @@ describe('MyClass', () => {
 
   describe('sayHello', () => {
     it('says hello', () => {
-      assert.equal(myClass.sayHello(), 'Hello, World!');
+      assert.equal(myClass.sayHello(), 1);
     });
   });
 });
