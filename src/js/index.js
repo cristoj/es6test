@@ -1,4 +1,4 @@
-import MyClass from './MyClass';
+import RomanCalculator from './romanCalculator';
 import "../css/style.scss";
 
 let myClass = new MyClass();
