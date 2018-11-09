@@ -17,7 +17,7 @@
     "doc:watch": "nodemon --exec \"npm run doc\" --watch src --watch ./ --ext js,md --ignore dist",
     "doc:live": "concurrently --kill-others \"npm run doc:watch\" \"npm run doc:view\"",
     "deploy": "npm run build && git commit -am \"new update\" && git push",
-    "deploy:all": "npm run build && gh-pages -d dist"
+    "deploy:page": "npm run build && gh-pages -d dist"
 
   },
   "author": "Jeremy Kahn <jeremyckahn@gmail.com>",
